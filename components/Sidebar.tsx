@@ -10,7 +10,7 @@ export default function Sidebar() {
         <>
             {/* Hamburger for small screens */}
             <button
-                className="md:hidden fixed top-4 left-4 z-50 p-2 rounded bg-gray-800 text-white"
+                className="md:hidden fixed top-4 right-4 z-50 p-2 rounded bg-gray-800 text-white"
                 onClick={() => setOpen(!open)}
                 aria-label="Open sidebar"
             >
