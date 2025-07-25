@@ -33,7 +33,8 @@ export default function Sidebar() {
                 <h1 className="text-xl font-bold mb-6">ScaleMet</h1>
                 <nav className="flex flex-1 flex-col justify-evenly space-y-0">
                     <Link href="/dashboard" className="py-2 text-center hover:bg-gray-700 rounded">Dashboard</Link>
-                    <Link href="/expenses" className="py-2 text-center hover:bg-gray-700 rounded">Expenses</Link>
+                    <Link href="/budget" className="py-2 text-center hover:bg-gray-700 rounded">Budget</Link>
+                    <Link href="/transactions" className="py-2 text-center hover:bg-gray-700 rounded">Transactions</Link>
                     <Link href="/forecast" className="py-2 text-center hover:bg-gray-700 rounded">Forecast</Link>
                     <Link href="/reports" className="py-2 text-center hover:bg-gray-700 rounded">Reports</Link>
                 </nav>
